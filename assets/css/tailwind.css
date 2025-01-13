@@ -1,0 +1,11 @@
+/* assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'OCR A Std';
+  src: url('~/assets/font/OCR_A_Std.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
