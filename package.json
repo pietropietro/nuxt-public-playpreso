@@ -1,7 +1,8 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-public-playpreso",
   "private": true,
   "type": "module",
+  "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
