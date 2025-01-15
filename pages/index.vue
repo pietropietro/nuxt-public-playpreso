@@ -88,8 +88,31 @@
     </div>
 </template>
 
-<script setup>
-// no script needed, purely layout
+<script setup lang="ts">
+import { useSeoMeta } from '#imports'
+
+useSeoMeta({
+  // Basic Meta
+  title: 'PlayPreso — Fast FantaCalcio',
+  description: 'PlayPreso is the ultimate no-money-involved football prediction game. Compete in tournaments, earn points, and become the king of predictions!',
+
+  // Open Graph
+  ogTitle: 'PlayPreso — Fast FantaCalcio',
+  ogDescription: 'Join PlayPreso and compete in fantasy football tournaments. Predict scores, earn points, and win trophies in leagues and cups.',
+  ogImage: 'https://playpreso.com/images/playpreso-preview.png',
+  ogUrl: 'https://playpreso.com',
+  ogType: 'website',
+
+  // Twitter
+  twitterCard: 'summary_large_image',
+  twitterSite: '@PlayPreso', // Update with your actual Twitter handle if available
+  twitterTitle: 'PlayPreso — Predict Football Scores & Win',
+  twitterDescription: 'Challenge your friends, predict match scores, and climb the leaderboards in the ultimate fantasy football game, PlayPreso.',
+  twitterImage: 'https://playpreso.com/images/playpreso-preview.png',
+
+  // Optional Additional Meta
+  keywords: 'fantasy football, score prediction, fantacalcio, playpreso, football game, no money involved'
+})
 </script>
 
 <style scoped>
