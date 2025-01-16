@@ -89,7 +89,6 @@
 </template>
 
 <script setup lang="ts">
-import { useSeoMeta } from '#imports'
 
 useSeoMeta({
   // Basic Meta
