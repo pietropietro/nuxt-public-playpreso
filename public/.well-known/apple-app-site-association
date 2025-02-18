@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "KB88HVB4TL.com.playpreso.app",
+        "paths": ["/recover/*"]
+      }
+    ]
+  }
+}
