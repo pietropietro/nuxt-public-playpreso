@@ -1,0 +1,11 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.playpreso.app",
+      "sha256_cert_fingerprints": [
+       "CF:B3:17:38:2C:75:05:F7:5E:6E:C7:E1:CB:B4:2A:B8:23:79:FE:42:FA:FC:5C:DA:9A:74:F6:86:D3:FC:D7:41"
+      ]
+    }
+  }]
+  
